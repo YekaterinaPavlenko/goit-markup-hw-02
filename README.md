@@ -1,2 +1,2 @@
-# goit-markup-hw-01
- Домашка №1 по html.
+# goit-markup-hw-02
+ Домашка №2 по html и css.
