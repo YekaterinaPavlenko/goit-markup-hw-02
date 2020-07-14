@@ -13,35 +13,40 @@ body {
     color: var(--primary-text-color);
 
     font-family: Roboto, sans-serif;
+    
 }
 
 ul {
     list-style: none;
 }
 
-/* верхняя линия */
+/* Студия-главная страница */
 
-/* лого */
+/* верхняя линия-лого */
 
 .logo {
     color: var(--primary-black-color);
     font-family: Raleway;  
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+
 }
 
 .logo-color {
     color: var(--accent-color);
 }
 
-/* навигация сайта */
+/* верхняя линия-навигация сайта */
 
 .nav-link {
     color: var(--title-text-color);
 
     font-family: Roboto, sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em; 
 }
 .nav-link:hover,
@@ -49,6 +54,8 @@ ul {
     color: var(--accent-color);
 }
 
+
+}
 .link-mail,
 .link-tel {
     color: var(--primary-text-color);
@@ -57,7 +64,7 @@ ul {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;    
     
 }
@@ -69,12 +76,107 @@ ul {
     color: var(--accent-color);
 }
 
-/* шапка-hero*/
+
+/*  секция шапка-hero*/
+
 .hero {
     color: var(--primary-white-color);
     background-color: var(--hero-bcg-color);
+    
 }
-.button {
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.button.primary {
     color: var(--primary-white-color);
-    background-color: var(--accent-bcg-color);
+    background-color: var(--accent-color);
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+
+}
+
+/* Общие  стили для секций*/
+
+.section-title {
+    color: var(--title-text-color);
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em; 
+}
+
+/*  секция Особенности */
+.features-title {
+    color: var(--title-text-color);
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+.features-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+/* секция-Чем мы занимаемся */
+.example-text {
+    color: var(--primary-white-color);
+    background-color: rgba(47, 48, 58, 0.8);
+
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+/* секция -Наша команда */
+
+.section-team {
+    background-color: #F5F4FA;
+}
+
+.team-title {  
+    color: var(--title-text-color); 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-text {
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+
+/* Портфолио*/
+
+.button.secondary {
+    color: var(--title-text-color);
+    background-color: #F5F4FA;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+
+}
+.button.secondary:hover,
+.button.secondary:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
 }
