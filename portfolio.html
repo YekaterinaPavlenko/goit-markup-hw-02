@@ -4,23 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    
     <link rel="stylesheet" href="./css/styles.css"/>
   </head>
   <body>
     <!--Верхняя линия-->
     <header>
       <nav>
-        <p><span>Web</span>Studio</p>
+        <p class="logo"><span class="logo-color">Web</span>Studio</p>
         <ul>
-          <li><a href="./index.html">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+          <li><a href="./index.html" class="nav-link">Студия</a></li>
+          <li><a href="./portfolio.html" class="nav-link">Портфолио</a></li>
+          <li><a href="" class="nav-link">Контакты</a></li>
         </ul>
       </nav>
       <address>
         <ul>
-          <li><a href="mailto:info@devstudio.com"><img src="./images/envelope.svg" alt="Конверт"/>info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111"><img src="./images/smartphone.svg" alt="Телефон"/>+38 096 111 11 11</a></li>
+          <li><a href="mailto:info@devstudio.com" class="link-mail"><img src="./images/navenvelope.svg" alt="Конверт"/>info@devstudio.com</a></li>
+          <li><a href="tel:+380961111111" class="link-tel"><img src="./images/navsmartphone.svg" alt="Телефон"/>+38 096 111 11 11</a></li>
         </ul>
       </address>
     </header>
@@ -28,17 +29,17 @@
         <section>
           <h1 hidden>Портфолио</h1>
             <ul>
-              <li><a href="">Все</a></li>
-              <li><a href="">Веб-сайты</a></li>
-              <li><a href="">Приложения</a></li>
-              <li><a href="">Дизайн</a></li>
-              <li><a href="">Маркетинг</a></li>
+              <li><button type="button">Все</button></li>
+              <li><button type="button">Веб-сайты</button></li>
+              <li><button type="button">Приложения</button></li>
+              <li><button type="button">Дизайн</button></li>
+              <li><button type="button">Маркетинг</button></li>
             </ul>
             <ul>
               <li>
                 <a href="">
                   <img src="./images/tehnokryakimg.jpg" alt="ноутбук с изображением рабочего стола" width="370" height="294">
-                  <span>Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</span>
+                  <p>Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                   <h2>Технокряк</h2>
                   <p>Веб-сайт</p>
                 </a>
@@ -105,7 +106,7 @@
     <!--Подвал-->
     <footer>
       <div>
-        <a href="/index.html"><span>Web</span>Studio</a>
+        <p class="logo"><span class="logo-color">Web</span>Studio</p>
         <address>
           <p>
             г. Киев, пр-т Леси Украинки, 26<br>
