@@ -226,3 +226,17 @@ b {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
+.title-card {
+    color: var(--title-text-color);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+}
+.text-card {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+}
+ a .portfolio-section
