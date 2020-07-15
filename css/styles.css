@@ -6,6 +6,9 @@
     --primary-white-color: #FFFFFF;
     --primary-black-color: #000000;
     --hero-bcg-color: rgba(47, 48, 58, 0.8);
+    --team-link-color: #AFB1B8;
+    --social-link-color: rgba(255, 255, 255, 0.1);
+    --footer-bcg-color: #2F303A;
 }
 
 body {
@@ -22,7 +25,7 @@ ul {
 
 /* Студия-главная страница */
 
-/* верхняя линия-лого */
+/* лого - верхняя линия */
 
 .logo {
     color: var(--primary-black-color);
@@ -37,6 +40,7 @@ ul {
 .logo-color {
     color: var(--accent-color);
 }
+
 
 /* верхняя линия-навигация сайта */
 
@@ -114,6 +118,17 @@ ul {
     letter-spacing: 0.03em; 
 }
 
+.social-link {
+    color: var(--team-link-color);
+
+}
+
+.social-link:hover,
+.social-link:focus {
+    color: var(--accent-color);
+
+}
+
 /*  секция Особенности */
 .features-title {
     color: var(--title-text-color);
@@ -162,7 +177,38 @@ ul {
     letter-spacing: 0.03em;
 }
 
+/* Футер */
+.footer {
+    color: var(--primary-white-color);
+    background-color: var(--footer-bcg-color);  
+}
 
+.logo.footer {
+    color: var(--primary-white-color);
+}
+
+.address-text {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.address-text a {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.address-text a:hover,
+.address-text a:focus {
+    color: var(--accent-color);
+} 
+b {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
 /* Портфолио*/
 
 .button.secondary {
