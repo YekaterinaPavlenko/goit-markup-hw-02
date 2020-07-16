@@ -21,24 +21,27 @@ ul {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Студия-главная страница */
 
 /* лого - верхняя линия */
 
 .logo {
     color: var(--primary-black-color);
+
     font-family: Raleway;  
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-
 }
 
 .logo-color {
     color: var(--accent-color);
 }
-
 
 /* верхняя линия-навигация сайта */
 
@@ -100,6 +103,7 @@ ul {
 .button.primary {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
+
     font-family: Roboto, sans-serif;
     font-weight: 700;
     font-size: 16px;
@@ -112,6 +116,7 @@ ul {
 
 .section-title {
     color: var(--title-text-color);
+
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -131,8 +136,10 @@ ul {
 }
 
 /*  секция Особенности */
+
 .features-title {
     color: var(--title-text-color);
+
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
@@ -149,6 +156,7 @@ ul {
 .example-text {
     color: var(--primary-white-color);
     background-color: rgba(47, 48, 58, 0.8);
+
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -165,6 +173,7 @@ ul {
 
 .team-title {  
     color: var(--title-text-color); 
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
@@ -219,6 +228,7 @@ b {
 .button.secondary {
     color: var(--title-text-color);
     background-color: #F5F4FA;
+
     font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -226,24 +236,30 @@ b {
     letter-spacing: 0.03em;
 
 }
+
 .button.secondary:hover,
 .button.secondary:focus {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
+
 .title-card {
     color: var(--title-text-color);
+
     font-weight: 700;
     font-size: 18px;
     line-height: 2.0;
     letter-spacing: 0.06em;
 }
+
 .text-card {
     color: var(--primary-text-color);
+
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
 }
+
 .portfolio-section a:hover,
 .portfolio-section a:focus {
     color: var(--accent-color);
@@ -252,6 +268,7 @@ b {
 .hover-kard {
     color: var(--primary-white-color);
     background-color: var(--accent-bcg-color);
+    
     font-size: 18px;
     line-height: 1.56; 
     letter-spacing: 0.03em;
