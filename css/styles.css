@@ -57,6 +57,10 @@ ul {
     color: var(--accent-color);
 }
 
+.nav-link.current {
+    color: var(--accent-color);
+}
+
 .link-mail,
 .link-tel {
     color: var(--primary-text-color);
@@ -82,7 +86,6 @@ ul {
 .hero {
     color: var(--primary-white-color);
     background-color: var(--hero-bcg-color);
-    
 }
 
 .hero-title {
