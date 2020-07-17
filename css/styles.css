@@ -74,7 +74,6 @@ a {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;    
-    
 }
 
 .link-mail:hover,
@@ -126,7 +125,6 @@ a {
 
 .social-link {
     color: var(--team-link-color);
-
 }
 
 .social-link:hover,
@@ -145,6 +143,7 @@ a {
     text-transform: uppercase;
     letter-spacing: 0.03em;
 }
+
 .features-text {
     font-size: 14px;
     line-height: 1.71;
@@ -180,6 +179,7 @@ a {
     text-align: center;
     letter-spacing: 0.03em;
 }
+
 .team-text {
     font-size: 16px;
     line-height: 1.2;
@@ -234,7 +234,6 @@ b {
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
-
 }
 
 .button.secondary:hover,
@@ -257,7 +256,7 @@ b {
 
     font-size: 16px;
     line-height: 1.87;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03em; 
 }
 
 .portfolio-section a:hover,
